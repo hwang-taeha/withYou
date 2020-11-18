@@ -1,17 +1,14 @@
 import React from "react";
-import "./App.css";
+
+import LoginPage from "./pages/loginPage";
+import { GlobalStyle } from "./styles/global-style";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a>Learn React</a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle></GlobalStyle>
+      <LoginPage></LoginPage>
+    </>
   );
 }
 
